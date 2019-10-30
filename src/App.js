@@ -19,6 +19,7 @@ function App() {
       const data = await response.json();
       setRecipes(data.hits);
       console.log(data.hits)
+      console.log(data)
   }
 
   const onChange = (e) =>{
